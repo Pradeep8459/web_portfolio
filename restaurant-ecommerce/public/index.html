@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    
+    <div class="container ">
+        <header>
+            <h1>My Kitchen</h1>
+            <div class="shopping">
+                <img src="shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+        <section>
+            <div class="carousel carousel-scroll mt-2" id="banners" data-bs-theme="dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="banner2.jpg" height="300" class="w-100 d-block">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="banner3.jpg" height="300" class="w-100 d-block">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="banner1.jpg" height="300" class="w-100 d-block">
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-slide-to="0" data-bs-target="#banners"></button>
+                    <button data-bs-slide-to="1" data-bs-target="#banners"></button>
+                    <button data-bs-slide-to="2" data-bs-target="#banners"></button>
+                </div>
+            </div>
+        </section>
+
+        <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
